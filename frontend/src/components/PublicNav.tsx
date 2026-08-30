@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom'
+export default function PublicNav(){return <nav className="flex items-center justify-between px-6 py-5 lg:px-10"><Link to="/" className="flex items-center gap-3"><div className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 font-bold text-white">B</div><span className="font-bold text-slate-900">BPO Control</span></Link><div className="flex items-center gap-3"><Link className="btn btn-secondary" to="/signin">Sign in</Link><Link className="btn btn-primary" to="/signup">Start free</Link></div></nav>}
